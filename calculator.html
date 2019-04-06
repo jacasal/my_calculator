@@ -13,6 +13,10 @@ function inv() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value, -1);
 }
+function cuatro() {
+	var num = document.getElementById('n1');
+	num.value = Math.pow(num.value, 4);
+}
 </script>
 </head>
 <body>
@@ -27,6 +31,9 @@ function inv() {
  </p>
  <p>
    <button onclick="inv()"> 1/x </button>
+ </p>
+ <p>
+ 	<button onclick ="cuatro()"> x^4 </button>
  </p>
 
 </body>
